@@ -12,9 +12,9 @@ time.sleep(1)
     while True:
         t,rh = sht85.read_data()
         dp = sht85.dew_point(t,rh)
-        print 'Temperature =', round(t,3)
-        print 'Relative Humidity =', round(rh,3)
-        print 'Dew Point =', round(dp,3)
+        print 'Temperature =', t
+        print 'Relative Humidity =', rh
+        print 'Dew Point =', dp
         time.sleep(mps)
 
 except (KeyboardInterrupt, SystemExit): #when you press ctrl+c
