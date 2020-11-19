@@ -10,7 +10,6 @@ setup(
     license = 'GNU GPL',
     url = 'https://github.com/jothanna/sht85/',
     classifiers=[
-        "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 2",
         "Operating System :: OS Independent",
     ]
