@@ -9,6 +9,7 @@ time.sleep(0.5e-3)
 
 sht85.periodic(mps,rep)
 time.sleep(1)
+try:
     while True:
         t,rh = sht85.read_data()
         dp = sht85.dew_point(t,rh)
