@@ -8,5 +8,10 @@ setup(
     description='Python driver for Sensirion SHT85 sensors connected to I2c pins of a Raspberrry Pi',
     author = 'Johanna Redelstein',
     license = 'GNU GPL',
-    url= 'https://github.com/jothanna/sht85/'
+    url = 'https://github.com/jothanna/sht85/',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 2",
+        "Operating System :: OS Independent",
+    ]
 )
