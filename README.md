@@ -3,7 +3,7 @@ Python driver for Sensirion SHT85 sensors connected to I2c pins of a Raspberrry 
 
 ## Useage
 An example of a periodic query is presented in **test_run_sht85.py**.  
-The functions mentioned below are implemented. For the exact application please refer to the datasheet of sensirion
+The functions mentioned below are implemented. For the exact usage please refer to the datasheet of sensirion
 
 **single_shot(rep='HIGH'):**  
     Single Shot Data Acquisition Mode
